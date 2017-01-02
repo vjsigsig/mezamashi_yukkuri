@@ -4,7 +4,7 @@ shopt -s expand_aliases
 source ~/.bash_aliases
 
 ## ルート
-ROOT_PATH="/home/vjsigsig/dev"
+ROOT_PATH="/home/vjsigsig/work/mezamashi_yukkuri"
 
 ## 初っ端の挨拶
 GREETING=`${ROOT_PATH}/greeting.sh`
