@@ -18,4 +18,4 @@ TO_DAY=`echo "${JSON_RESPONSE}" |jq -r .forecasts[0].telop`
 MESSAGE="${PREFIX} ${TO_DAY}"
 
 ## 作成したメッセージを返す
-echo ${MESSAGE}
+echo "${MESSAGE}"

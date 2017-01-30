@@ -9,4 +9,4 @@ CURL_RESPONSE=`curl -s http://www.53cal.jp/areacalendar/\?city=1010109\&area=101
 
 MESSAGE=`echo ${CURL_RESPONSE} |sed -e 's/<[^>]*>//g'`
 
-echo ${MESSAGE}
+echo "${MESSAGE}"

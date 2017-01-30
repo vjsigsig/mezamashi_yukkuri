@@ -2,4 +2,4 @@
 
 MESSAGE="今日もいちにちがんばるぞい"
 
-echo ${MESSAGE}
+echo "${MESSAGE}"

@@ -34,4 +34,4 @@ for SIGN in ${TARGET_SIGNS}; do
     MESSAGE="${MESSAGE} ${PRE_COLOR} ${COLOR}"
 done
 
-echo ${MESSAGE}
+echo "${MESSAGE}"
